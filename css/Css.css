@@ -1,0 +1,525 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{list-style:none} 
+
+body{
+
+	height: 100%;
+}
+html{
+	height: 100%;
+}
+
+#box{
+	width: 100%;
+	height: 102%;
+	background-color: brown;
+	position: relative;
+	background-image: url(../images/74.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#nav{
+	width: 30rem;
+	height: 3.5rem;
+
+	z-index: 1;
+	position: absolute;
+
+	
+}
+#top{
+    width: 30rem;
+	height: 0rem;
+	background-color:rgba(40,40,40,0.5);
+	overflow: hidden;
+	transition: all 0.3s;
+	position: relative;
+	z-index: 3;
+	
+}
+#top_2{
+	width: 30rem;
+	height: 0rem;
+	background-color:rgba(40,40,40,0.5);
+	overflow: hidden;
+	transition: all 0.3s;
+	position: relative;
+	z-index: 3;
+	
+}
+#top_3{
+	width: 30rem;
+	height: 0rem;
+	background-color:rgba(40,40,40,0.9);
+	overflow: hidden;
+     
+	position: relative;
+	z-index: 3;
+	
+}
+
+#bxcz{
+	width: 3.8rem;
+	height: 4rem;
+	position: absolute;
+	left: 16rem;
+	top: 0.5rem;
+	z-index: 2;
+	
+	
+}
+#phb {
+	width: 4rem;
+	height: 5rem;
+	position: absolute;
+	right: 0.5rem;
+	top: 12rem;
+	z-index: 2;
+	
+	
+}
+#qd{
+	width:4rem;
+	height: 4rem;
+	position: absolute;
+	left: 11rem;
+	top: 0.5rem;
+	z-index: 2;
+	
+}
+#czhs{
+	width: 6rem;  
+	height: 6rem;
+	background-image:url(../images/QQ图片20171220145119.png);
+	background-repeat: no-repeat;
+	background-size: 4rem 4rem;
+	display: inline-block;
+	position: absolute;
+	left: 13rem;
+	top: 40rem;
+	margin-top: 1px;
+	z-index: 5;
+}
+#czhs_2{
+	width: 6rem;
+	height: 6rem;
+	background-image:url(../images/QQ图片20171220145119.png);
+	background-repeat: no-repeat;
+	background-size: 4rem 4rem;
+	display: inline-block;
+	position: absolute;
+	left: 13rem;
+	top: 40rem;
+	margin-top: 1px;
+	z-index: 5;
+	
+}
+
+#czhs_3{
+	width: 12rem;
+	height: 6rem;
+	background-image:url(../images/QQ图片20171221135702.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	top: 43rem;
+    margin-left: -6rem;
+	z-index: 5;
+}
+.qdcg{
+	width: 12rem;
+	height: 4rem;
+	display: inline-block;
+	background-image: url(../images/qdcg.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 9rem;
+}
+.di{
+	width: 3rem;
+	height: 3rem;
+	display: inline-block;
+	background-image: url(../images/第.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 10.5rem;
+}
+.tian{
+	width: 3rem;
+	height: 3rem;
+	display: inline-block;
+	background-image: url(../images/天.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
+}
+#playerday{
+	width: 2rem;
+	height: 2rem;
+	display: inline-block;
+	font-family: "黑体";
+	font-weight: 900;
+		color: white;
+		font-size: 3rem;
+	
+		text-align: center;
+}
+#zhuanpan{
+
+width: 800px;
+height: 800px;
+border-radius: 50%;
+
+
+position: absolute;
+top: 10rem;
+left: 50%;
+margin-left: -400px;
+text-align: center;
+background: url(../images/qtdywzjl.png)no-repeat;
+background-size: 800px 800px;
+
+	
+}
+#zhuanpanbj{
+
+width: 805px;
+height: 805px;
+border-radius: 50%;
+
+
+position: absolute;
+top: 10rem;
+left: 50%;
+margin-left: -400px;
+text-align: center;
+background: url(../images/ly-plate-c.gif)no-repeat;
+background-size: 800px 800px;
+
+	
+}
+#paizi{
+	background-image: url(../images/QQ图片20171221091847.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 800px;
+    height: 500px;
+position: absolute;
+top: 3rem;
+left: 50%;
+margin-left: -380px;
+
+
+}
+#zhizhen{
+
+width: 800px;
+height: 800px;
+border-radius: 50%;
+
+
+position: absolute;
+top: 10rem;
+left: 50%;
+margin-left: -400px;
+text-align: center;
+background: url(../images/指针.png)no-repeat;
+background-size: 800px 800px;
+
+	
+}
+
+#btn{
+	width: 300px;
+	height: 250px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 5rem;
+	left: 50%;
+	margin-left: -150px;
+/*    background-image:url(../images/on.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;*/
+}
+#btni{
+	width: 300px;
+	height: 250px;
+	transition: all 1s;
+}
+
+#play_num{
+	width: 3rem;
+	height: 3rem;
+	position: absolute;
+	top: 1px;
+	z-index: 99;
+}
+#jbsz{	width: 5.5rem;
+	height: 1.5rem;
+
+	position: absolute;
+	right: 9.8rem;
+	top: 5rem;
+	z-index: 1;
+	display: inline-block;
+	text-align: left;
+	line-height: 1.5rem;
+	font-family: "arial black";
+	color: white;
+	font-weight: bold;}
+.czbsh{
+	width: 5.5rem;
+	height: 1.5rem;
+
+	position: absolute;
+	right: 7rem;
+	top: 5rem;
+	z-index: 1;
+	display: inline-block;
+	text-align: left;
+	line-height: 1.5rem;
+	font-family: "arial black";
+	color: white;
+	font-weight: bold;
+}
+
+#czjb{
+	width: 1.5rem;
+	height:1.5rem;
+
+	position: absolute;
+	right: 8.4rem;
+	top: 5rem;
+	z-index: 1;
+	display: inline-block;
+	text-align: left;
+	line-height: 1.5rem;
+	font-family: "arial black";
+	color: white;
+	font-weight: bold;
+	background-image: url(../images/44.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+/*#czbtn{
+	width:1.5rem;
+	height: 1.5rem;
+	position: absolute;
+	right: 2.5rem;
+	top: 0.75rem;
+	z-index: 2;
+	display: inline-block;
+	background-image: url(../images/6.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#czbtn_l{
+	margin-top:-0.06rem;
+	width:1.65rem;
+	height: 1.65rem;
+	position: absolute;
+	right: 8rem;
+	top: 0.75rem;
+	z-index: 2;
+	display: inline-block;
+	background-image: url(../images/44.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}*/
+#playertx{
+	width: 2.8rem;
+	height: 2.8rem;
+	position: absolute;
+	left: 6rem;
+	top: 4.2rem;
+	z-index: 2;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: rgba(255,255,255,0.3);
+	border:0.1rem solid white
+	
+}
+#top_nav{
+	text-align: center;
+	line-height: 5rem;
+
+  font-size: 2.5rem;
+  color: rgb(130,64,0);
+  font-weight: bold;
+  font-family: "楷体";
+  width: 30rem;
+  height: 5rem;	
+  background-color: cadetblue;
+  background-image: url(../images/QQ图片20171221095612.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#top2_nav{
+	text-align: center;
+	line-height: 5rem;
+
+  font-size: 2.5rem;
+  color: rgb(130,64,0);
+  font-weight: bold;
+  font-family: "楷体";
+  width: 30rem;
+  height: 5rem;	
+  background-color: cadetblue;
+  background-image: url(../images/QQ图片20171220144109.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+#top2_box{
+	text-align: center;
+	width: 26rem;
+	height: 37rem;
+	background-color: rgb(255,168,0);
+	margin: 0 auto;
+	border-radius: 0 0 10% 10%;
+	border: 0.3rem solid white;
+	box-shadow: 0 0.5rem 13rem yellow;
+	border-top: none;
+	z-index: 
+	position:relative;
+	
+}
+
+#top_box{
+	text-align: center;
+	width: 26rem;
+	height: 37rem;
+	background-color: rgb(246,231,104);
+	margin: 0 auto;
+	border-radius: 0 0 10% 10%;
+	border: 0.3rem solid white;
+	box-shadow: 0 0.5rem 13rem yellow;
+	border-top: none;
+	z-index: 
+	position:relative
+}
+
+.czbxl{
+	width: 7rem;
+	height: 12rem;
+	display: inline-block;
+	float: left;
+	margin-left: 1.25rem;
+
+	margin-top: 4rem;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+}
+
+.jp{
+width: 2.2rem;
+height: 3rem;
+
+float: left;
+margin-left: 3rem;
+margin-top:0.25rem;
+}
+.jp2{
+width: 2.2rem;
+height: 2.2rem;
+
+float: left;
+margin-left: 3rem;
+margin-top:0.7rem;
+}
+.q3{font-weight: 700;
+	height: 3.5rem;
+	line-height: 3.5rem;
+	font-size:1.6rem;
+	text-align: center;
+}
+.pm{
+	font-family: "黑体";
+	text-align: center;
+	color: white;
+}
+
+.tx{
+	width: 2.8rem;
+	height: 2.8rem;
+	float: left;
+	border: 0.1rem solid white;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-top: 0.25rem;
+	
+}
+.pt{
+	
+	height: 3.5rem;
+	line-height: 3.5rem;
+	font-size:1.6rem;
+	text-align: left;
+	text-indent: 5rem;
+}
+
+.djb{
+	margin-top: 0.5rem;
+	float: left;
+	width: 3.5rem;
+	height: 4rem;
+	left: 1.5rem;
+	position: absolute;
+}
+.djb2{
+	margin-top: -0.5rem;
+	float: left;
+	width: 5rem;
+	height: 6rem;
+	left: 1.5rem;
+	position: absolute;
+}
+
+#shengyin{
+	width: 4rem;
+	height: 4rem;
+	display: inline-block;
+	border-radius: 50% 50%;
+
+	position: absolute;
+	bottom: 15rem;
+	right: 2rem;
+	
+}
+#guize{
+	width: 4rem;
+	height: 4rem;
+	display: inline-block;
+	border-radius: 50% 50%;
+
+	position: absolute;
+	bottom: 15rem;
+	left: 2rem;
+}
+#syimg{
+	width: 4.5rem;
+	height: 4.5rem;
+}
+
+#gzimg{
+	width:4.5rem;
+	height:4.5rem;
+	margin-top: 0.5rem;
+}
+
+#t3z{
+	width: 20rem;
+	height: 25rem;
+	margin-left: 5rem;
+	margin-top: 1rem;
+	
+}
